@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Launcher</title>
+  </head>
+  <body>
+    <main>
+      <h1>Search Launcher</h1>
+      <form method="get" target="_blank">
+        <label for="search-input">Search Query:</label>
+        <input
+          name="q"
+          id="search-input"
+          type="search"
+          placeholder="Enter your search query..."
+          aria-describedby="search-hint"
+          autofocus
+          required
+        />
+        <p id="search-hint">
+          <small
+            >For Stack Overflow searches, use quotes in your search
+            query. ex: "python list comprehension"</small
+          >
+        </p>
+        <button
+          formaction="https://github.com/search"
+          name="type"
+          value="repositories"
+        >
+          GitHub repositories
+        </button>
+        <button formaction="https://dev.to/search">DEV.to</button>
+        <button formaction="https://stackoverflow.com/search">
+          Stack Overflow
+        </button>
+      </form>
+    </main>
+  </body>
+</html>
