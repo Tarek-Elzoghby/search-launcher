@@ -10,11 +10,11 @@ This is a small practice project, not a product. V1 is finished and meets the si
 
 <!-- ADD: one screenshot (light mode is fine; a second in dark mode is a plus). Save as screenshot.jpg in the repo root. -->
 
-![Search Launcher in light mode](./screenshot.jpg)
+![Search Launcher in light mode](./search_launcher.jpg)
 
 ## Links
 
-- **Live demo:** <!-- ADD once GitHub Pages is on --> 
+- **Live demo:** https://tarek-elzoghby.github.io/search-launcher/
 - **Source:** [github.com/Tarek-Elzoghby/search-launcher](https://github.com/Tarek-Elzoghby/search-launcher)
 
 ## How it works
